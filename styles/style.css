@@ -79,6 +79,7 @@ section {
     background-image: url("../images/latest-work-bg.png");
     background-repeat: no-repeat;
     background-size: cover;
+    height: 350px;
 }
 
 .latest-work-title {
@@ -97,4 +98,49 @@ section {
 }
 .single-work img {
     width: 100%;
+}
+.client-review-section {
+    background-image: url("../images/footer-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    height: 430px;
+}
+.client-review-title {
+    padding: 0;
+}
+
+.single-client {
+    padding-top: 30px;
+}
+.client-name {
+    font-weight: 700;
+}
+.client-designation {
+    font-size: 10px;
+    color: dimgray;
+}
+.client-message {
+    font-size: 12px;
+    padding-top: 30px;
+    width: 40%;
+    margin: auto;
+}
+
+.user-feedback {
+    width: 50%;
+    margin: auto;
+    background-color: #ec4b74;
+    color: white;
+    padding: 20px 0px;
+    margin-top: 30px;
+    border-radius: 10px;
+}
+.user-feedback p {
+    color: white;
+    font-size: 12px;
+}
+footer {
+    text-align: center;
+    font-size: 12px;
 }
