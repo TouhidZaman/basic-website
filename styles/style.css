@@ -64,10 +64,37 @@ section {
     background-size: cover;
 }
 .bio-info {
-    padding-top: 15%;
+    margin: 0;
+    padding-top: 10%;
 }
 .bio-image {
-    padding-left: 3%;
-    padding-top: 5%;
-    padding-bottom: 5%;
+    padding-left: 5%;
+   
+}
+.bio-image img{
+    width: 90%;
+}
+
+.latest-work {
+    background-image: url("../images/latest-work-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.latest-work-title {
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.all-works {
+    width: 100%;
+}
+.single-work {
+    width: 25%;
+    margin-left: 5%;
+    padding-left: 2%;
+    float: left;
+}
+.single-work img {
+    width: 100%;
 }
